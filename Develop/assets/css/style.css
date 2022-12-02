@@ -1,16 +1,22 @@
+/* below are the universal styling rules for the site */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* below is the styling rule for the background colour of the body */
 
 body {
     background-color: #d9dcd6;
 }
 
+/* below are the styling rules for the header */
+
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -23,6 +29,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* below are the styling rules for the main navigation bar */
 
 .header nav {
     padding-top: 15px;
@@ -41,6 +49,8 @@ body {
     margin-left: 25px;
 }
 
+/* below are the styling rules for all paragraph and anchor elements */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +60,8 @@ p {
     font-size: 16px;
 }
 
+/* below is the styling for the hero banner image */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +70,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* below are the styling rules for each of the sections describing the agencies services */
 
 .float-left {
     float: left;
@@ -74,6 +88,26 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main img {
+    max-height: 200px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* below are the styling rules for agency benefits in the right sidebar */
 
 .benefits {
     margin-right: 20px;
@@ -102,23 +136,7 @@ aside img {
     max-width: 150px;
 }
 
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main img {
-    max-height: 200px;
-}
-
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* below are the styling rules for the footer */
 
 .footer {
     padding: 30px;
